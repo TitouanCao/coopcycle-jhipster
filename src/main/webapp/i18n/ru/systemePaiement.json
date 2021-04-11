@@ -1,0 +1,23 @@
+{
+  "myblogApp": {
+    "systemePaiement": {
+      "home": {
+        "title": "Systeme Paiements",
+        "createLabel": "Создать новый Systeme Paiement",
+        "createOrEditLabel": "Создать или отредактировать Systeme Paiement",
+        "notFound": "No Systeme Paiements found"
+      },
+      "created": "Новый Systeme Paiement создан с идентификатором {{ param }}",
+      "updated": "Systeme Paiement обновлен с идентификатором {{ param }}",
+      "deleted": "Systeme Paiement удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Systeme Paiement {{ id }}?"
+      },
+      "detail": {
+        "title": "Systeme Paiement"
+      },
+      "method": "Method",
+      "agents": "Agents"
+    }
+  }
+}

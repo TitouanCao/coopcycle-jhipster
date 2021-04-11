@@ -1,0 +1,24 @@
+{
+  "myblogApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "createLabel": "Создать новый Cooperative",
+        "createOrEditLabel": "Создать или отредактировать Cooperative",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "Новый Cooperative создан с идентификатором {{ param }}",
+      "updated": "Cooperative обновлен с идентификатором {{ param }}",
+      "deleted": "Cooperative удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Cooperative {{ id }}?"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "name": "Name",
+      "possessions": "Possessions",
+      "members": "Members"
+    }
+  }
+}

@@ -147,12 +147,12 @@ jhipster:
     title: myblog API
     description: myblog API documentation
     version: 0.0.1
-    terms-of-service-url:
-    contact-name:
-    contact-url:
-    contact-email:
-    license: unlicensed
-    license-url:
+    terms-of-service-url: terms-of-service-url.com
+    contact-name: cao
+    contact-url: cao.com
+    contact-email: cao34970@gmail.com
+    license: MIT
+    license-url: fake-license-url.com
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class

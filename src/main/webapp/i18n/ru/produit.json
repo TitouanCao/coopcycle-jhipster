@@ -1,0 +1,26 @@
+{
+  "myblogApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Создать новый Produit",
+        "createOrEditLabel": "Создать или отредактировать Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Новый Produit создан с идентификатором {{ param }}",
+      "updated": "Produit обновлен с идентификатором {{ param }}",
+      "deleted": "Produit удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "name": "Name",
+      "price": "Price",
+      "quantity": "Quantity",
+      "restaurant": "Restaurant",
+      "carts": "Carts"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "myblogApp": {
+    "roles": {
+      "home": {
+        "title": "Roles",
+        "createLabel": "Создать новый Roles",
+        "createOrEditLabel": "Создать или отредактировать Roles",
+        "notFound": "No Roles found"
+      },
+      "created": "Новый Roles создан с идентификатором {{ param }}",
+      "updated": "Roles обновлен с идентификатором {{ param }}",
+      "deleted": "Roles удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Roles {{ id }}?"
+      },
+      "detail": {
+        "title": "Roles"
+      },
+      "role": "Role"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "myblogApp": {
+    "roles": {
+      "home": {
+        "title": "Roles",
+        "createLabel": "Ստեղծել նոր Roles",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Roles",
+        "notFound": "No Roles found"
+      },
+      "created": "Նոր Roles ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Roles թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Roles հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Roles {{ id }}?"
+      },
+      "detail": {
+        "title": "Roles"
+      },
+      "role": "Role"
+    }
+  }
+}

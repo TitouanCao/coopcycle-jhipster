@@ -1,0 +1,37 @@
+{
+  "name": "Cooperative",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "restaurant",
+      "otherEntityRelationshipName": "cooperative",
+      "relationshipName": "possessions"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "compte",
+      "otherEntityRelationshipName": "cooperative",
+      "relationshipName": "members"
+    }
+  ],
+  "changelogDate": "20210410142342",
+  "entityTableName": "cooperative",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

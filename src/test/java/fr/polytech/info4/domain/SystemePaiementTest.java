@@ -1,0 +1,22 @@
+package fr.polytech.info4.domain;
+
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
+import fr.polytech.info4.web.rest.TestUtil;
+
+public class SystemePaiementTest {
+
+    @Test
+    public void equalsVerifier() throws Exception {
+        TestUtil.equalsVerifier(SystemePaiement.class);
+        SystemePaiement systemePaiement1 = new SystemePaiement();
+        systemePaiement1.setId(1L);
+        SystemePaiement systemePaiement2 = new SystemePaiement();
+        systemePaiement2.setId(systemePaiement1.getId());
+        assertThat(systemePaiement1).isEqualTo(systemePaiement2);
+        systemePaiement2.setId(2L);
+        assertThat(systemePaiement1).isNotEqualTo(systemePaiement2);
+        systemePaiement1.setId(null);
+        assertThat(systemePaiement1).isNotEqualTo(systemePaiement2);
+    }
+}
